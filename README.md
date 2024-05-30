@@ -56,3 +56,24 @@ Esse é o schema (model) de Tarefa, utilizado para passar para os métodos que e
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+
+## minhas acoes
+
+criando a migration
+
+`dotnet-ef migrations add CriarTabelaTarefa`
+
+atualizando a base para criar as tabelas
+
+`dotnet-ef database update`
+
+revertendo dados
+
+`dotnet-ef database update 0`
+
+removendo migrations
+
+`dotnet-ef migrations remove`
+
